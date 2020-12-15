@@ -1,3 +1,11 @@
+/**
+ * @file IPHolder.cpp
+ * @brief Contains function definitions for IPHolder class; used to store and evaluate information from a CSV file.
+ * @author Dagan Poulin
+ * @date 12/15/2020
+ * @assignment Final Project
+ **/
+
 #include "IPHolder.h"
 /**
  * @brief Constructs default IPHolder
