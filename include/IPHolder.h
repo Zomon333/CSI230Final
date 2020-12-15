@@ -3,8 +3,8 @@
  * @brief Declarations for IPHolder class
  * 
  * @author Dagan Poulin
- * @date 11/30/2020
- * @assignment Lab 12.1
+ * @date 12/15/2020
+ * @assignment Final Project
  **/
 
 #ifndef IPHOLDER_H
