@@ -1,8 +1,22 @@
+/**
+ * @file main.cpp
+ * @brief Main Function / Stub Driver; loads database, searches for result, and returns result to .kml file for viewing on google earth.
+ * @author Dagan Poulin
+ * @date 12/15/2020
+ * @assignment Final Project
+ **/
+
 #include "IPHolder.h"
-#include <boost/program_options.hpp>
-#include <boost/lambda/lambda.hpp>
 using namespace std;
 
+/**
+ * @brief Main function / stub driver, runs rest of program
+ * @date 12/15/2020
+ * @param int argc, number of arguments
+ * @param char* argv[], array of arguments
+ * @param char* env[], array of environment variables
+ * @return int, exit state
+ */
 int main(int argc, char* argv[], char* env[])
 {
     string IPLookup;

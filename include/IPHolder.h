@@ -1,14 +1,14 @@
 /**
- * @file SOL.h
- * @brief SharedObjectLibrary declarations
+ * @file IPHolder.h
+ * @brief Declarations for IPHolder class
  * 
  * @author Dagan Poulin
  * @date 11/30/2020
  * @assignment Lab 12.1
  **/
 
-#ifndef SOL_H
-#define SOL_H
+#ifndef IPHOLDER_H
+#define IPHOLDER_H
 #include <string>
 #include <vector>
 #include <iostream>
@@ -16,6 +16,7 @@
 #include <boost/program_options.hpp>
 #include <boost/lambda/lambda.hpp>
 
+#endif
 using namespace std;
 class IPHolder
 {
@@ -56,4 +57,3 @@ public:
     void setLongitude(string input);
     void setAccuracy_radius(string input);
 };
-#endif
